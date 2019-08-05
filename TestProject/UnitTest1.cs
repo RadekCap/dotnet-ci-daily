@@ -2,6 +2,8 @@ using System;
 using Xunit;
 
 namespace TestProject {
+    
+    [Trait("Category", "Unit tests")]
     public class UnitTest1 {
 
         [Fact]
