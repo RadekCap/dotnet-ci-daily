@@ -4,7 +4,7 @@ namespace TestProject
     using Xunit;
     
     [Trait("Category", "Example category")]
-    public class SampleCategoryTests
+    public class Interop
     {
         [Fact]
         public void Test0 () {

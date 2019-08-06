@@ -4,7 +4,7 @@ using Xunit;
 namespace TestProject {
     
     [Trait("Category", "Unit tests")]
-    public class UnitTest1 {
+    public class SmokeTests {
 
         [Fact]
         public void Test0 () {
