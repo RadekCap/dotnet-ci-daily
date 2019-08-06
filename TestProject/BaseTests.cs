@@ -8,12 +8,12 @@ namespace TestProject {
 
         [Fact]
         public void Test0 () {
-            Assert.True (false);
+            Assert.True (true);
         }
 
         [Fact]
         public void Test1 () {
-            Assert.True (true);
+            Assert.True (false);
         }
 
         [Fact]
@@ -68,7 +68,7 @@ namespace TestProject {
 
         [Fact]
         public void Test13 () {
-            Assert.True (false);
+            Assert.True (true);
         }
 
         [Fact]
@@ -78,7 +78,7 @@ namespace TestProject {
 
         [Fact]
         public void Test15 () {
-            Assert.True (true);
+            Assert.True (false);
         }
 
         [Fact]
