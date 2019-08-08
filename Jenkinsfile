@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Run tests') {
       steps {
-        sh 'dotnet test --logger "junit;LogFilePath=./results.xml'
+        sh 'dotnet test --logger "junit;LogFilePath=./results.xml"'
       }
     }
   }
